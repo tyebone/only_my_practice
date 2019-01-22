@@ -8,17 +8,25 @@
 	練習中
 	<form>
 
-		<div>ユーザー名</div>
+		<div>ユーザー名:
+			<input type = "text" name = "username">
+		</div>
 
 
-		<div>メールアドレス</div>
 
-		
-		<div>パスワード</div>
+		<div>メールアドレス:
+			<input type = "email" name = "email">
+		</div>
 
-		
-		<div>画像</div>
+		<div>パスワード:
+			<input type ="password" name = "password">
+		</div>
 
+		<div>
+		画像:
+			<input type = "file" name = "user_img">
+		</div>
+		<input type = "submit" nmae = "submit">
 	
 	</form>	
 </body>
