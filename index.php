@@ -1,3 +1,13 @@
+<?php
+
+echo '<pre>';
+var_dump($_POST);
+echo '</pre>';
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang = "ja">
 <head>
@@ -5,8 +15,8 @@
 	<meta charset="utf-8">
 </head>
 <body>
-	練習中
-	<form>
+	練習中	
+	<form action = "timeline.php" method="POST">
 
 		<div>ユーザー名:
 			<input type = "text" name = "username">
@@ -22,8 +32,7 @@
 			<input type ="password" name = "password">
 		</div>
 
-		<div>
-		画像:
+		<div>画像:
 			<input type = "file" name = "user_img">
 		</div>
 		<input type = "submit" nmae = "submit">
